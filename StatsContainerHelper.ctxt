@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StatsContainerHelper
+comment0.text=\r\n\ Helper\ class\ used\ to\ build\ a\ statistics\ viewer\ and\ to\ update\ the\ statistics\ when\ needed.\r\n\r\n\ @author\ Alexandru\ Matei,\ K20054925\r\n\ @version\ 7/04/2021\r\n
+comment1.params=filteredListings
+comment1.target=javafx.scene.layout.Pane\ getStatsGrid(java.util.ArrayList)
+comment1.text=\r\n\ Builds\ the\ statistics\ viewer\ and\ returns\ its\ container.\r\n\ @param\ filteredListings\r\n\ @return\ The\ pane\ containing\ the\ four\ stats.\r\n
+comment2.params=list
+comment2.target=void\ updateAllStats(java.util.ArrayList)
+comment2.text=\r\n\ Computes\ all\ stats\ again\ and\ refreshes\ the\ individual\ statistic\ viewer's\ displayed\ information.\r\n
+comment3.params=
+comment3.target=void\ updateOnlyFavStats()
+comment3.text=\r\n\ Computes\ only\ the\ stats\ related\ to\ the\ user's\ favorited\ properties\ again\ and\ refreshes\ the\ individual\ statistic\ viewer's\ displayed\ information.\r\n
+numComments=4

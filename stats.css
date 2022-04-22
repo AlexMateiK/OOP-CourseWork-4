@@ -1,0 +1,17 @@
+.stats-container {
+    -fx-hgap: 5pt;
+    -fx-vgap: 5pt;
+    -fx-padding: 5pt 5pt 5pt 5pt;
+
+}
+
+.stat-viewer {
+    -fx-font-size: 10pt;
+    -fx-pref-height: 300pt;
+    -fx-pref-width: 400pt;
+    -fx-max-width: 600pt;
+    -fx-min-width: 150pt;
+    -fx-max-height: 350pt;
+    -fx-min-height: 50pt;
+}
+

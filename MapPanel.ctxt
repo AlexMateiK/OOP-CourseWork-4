@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MapPanel
+comment0.text=\r\n\ MapPanel\ is\ a\ class\ that\ is\ a\ part\ of\ Map\ package\r\n\ which\ is\ a\ part\ of\ London\ Property\ Marketplace\ program.\r\n\ It\ is\ responsible\ for\ drawing\ hexagons\ on\ boroughs\ map.\r\n\ It\ sets\ whole\ GUI\ of\ this\ part\ of\ the\ program\ i.e.\ this\ panel\r\n\ and\ one\ that\ follows\ after\ actions\ invoked\ on\ it.\r\n\r\n\ @author\ Mateusz\ Adamski\ K20063061\r\n\ @version\ 1.0\r\n
+comment1.params=airbnbListings\ statsContainerHelper
+comment1.target=MapPanel(java.util.ArrayList,\ StatsContainerHelper)
+comment1.text=\r\n\ Initialises\ \ object\ of\ class\ MapPanel.\r\n\r\n\ @param\ airbnbListings\ \ The\ array\ list\ of\ properties\ to\ be\ shown.\r\n
+comment2.params=list
+comment2.target=void\ update(java.util.ArrayList)
+comment2.text=\r\n\ Updates\ appropriate\ date\ so\ that\ the\ application\ shows\ appropriate\r\n\ data\ on\ an\ event\ that\ list\ of\ properties\ has\ changed.\r\n\r\n\ @param\ list\ \ The\ updated\ list\ of\ properties.\r\n
+comment3.params=
+comment3.target=void\ drawPolygons()
+comment3.text=\r\n\ Is\ responsible\ for\ drawing\ polygons\ on\ the\ map.\r\n
+comment4.params=mouseEvent
+comment4.target=void\ boroughClicked(javafx.scene.input.MouseEvent)
+comment4.text=\r\n\ Defines\ action\ to\ be\ taken\ on\ an\ event\ that\ the\ borough\ was\ clicked.\r\n\ @param\ mouseEvent\ The\ mouseEvent\ that\ triggered\ this\ method\ invocation.\r\n
+comment5.params=
+comment5.target=void\ setBackground()
+comment5.text=\r\n\ Loads\ image\ with\ the\ map\ that\ is\ to\ be\ set\ as\r\n\ a\ background\ of\ the\ panel.\r\n
+comment6.params=file
+comment6.target=javafx.scene.image.WritableImage\ loadImage(java.io.File)
+comment6.text=\r\n\ Loads\ the\ image\ file.\ Returns\ null\ if\ the\ image\ was\ broken\r\n\ or\ if\ any\ other\ problems\ occurred\ during\ it's\ loading\r\n\r\n\ @param\ file\ \ The\ file\ containing\ image\ to\ be\ loaded.\r\n\ @return\ \ The\ loaded\ image.\r\n
+comment7.params=
+comment7.target=void\ showImageNotFoundAlert()
+comment7.text=\r\n\ Show\ an\ error\ message\ to\ the\ user\ informing\ them\ that\ a\ file\ could\ not\ be\r\n\ loaded\ because\ it\ was\ not\ found.\r\n
+numComments=8

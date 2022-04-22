@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ConnectivityDataLoader
+comment0.text=\r\n\ Helper\ class\ used\ to\ load\ connectivity\ data\ from\ a\ .csv\ file.\r\n\r\n\ The\ dataset\ for\ the\ 2021\ PTAL\ predictions\ is\ offered\ by\ Transport\ for\ London\ at\ https\://tfl.gov.uk/info-for/open-data-users/api-documentation\r\n\ I\ acknowledge\ the\ Transport\ Data\ Service\ Terms\ and\ Conditions\ and\ the\ WebCAT\ turns\ and\ conditions\ linked\ here\:\r\n\ https\://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service\r\n\ https\://tfl.gov.uk/corporate/terms-and-conditions/webcat\r\n\ Therefore,\ the\ functionality\ of\ our\ application\ is\ Powered\ by\ TfL\ Open\ Data\r\n\r\n\ Contains\ OS\ data\ \u00A9\ Crown\ copyright\ and\ database\ rights\ 2016'\r\n\ Geomni\ UK\ Map\ data\ \u00A9\ and\ database\ rights\ [2019]\r\n\r\n\ @Author\ Alexandru\ Matei,\ K20054925\r\n\ On\ the\ basis\ of\ code\ provided\ in\ the\ start\ package\ for\ coursework\ 4.\r\n\ @Version\ 7/04/2021\r\n
+comment1.params=
+comment1.target=ConnectivityDataLoader()
+comment2.params=
+comment2.target=java.util.ArrayList\ loadConnectivityData()
+comment2.text=\r\n\ Loads\ connectivity\ data\ into\ an\ arraylist\ of\ objects\ that\ contain\ individual\ connectivity\ data\ points\ and\ returns\ that\ arraylist.\r\n\ @return\ ArrayList\ containing\ connectivity\ datapoints.\r\n
+numComments=3

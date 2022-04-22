@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StatViewer
+comment0.text=\r\n\ \ Helper\ class\ that\ builds\ an\ individual\ statistic\ viewer.\r\n\ \ Construct\ an\ object\ of\ this\ class\ to\ build\ a\ single\ statistic\ viewer\ (\ text\ +\ arrow\ buttons\ ),\r\n\ \ and\ call\ the\ refreshStat()\ method\ whenever\ you\ need\ to\ refresh\ the\ information\ it\ displays.\r\n\r\n\ \ @author\ Alexandru\ Matei,\ K20054925\r\n\ \ @version\ 7/04/2021\r\n
+comment1.params=actionEvent
+comment1.target=void\ previousStat(javafx.event.ActionEvent)
+comment1.text=\r\n\ Searches\ for\ the\ nearest\ available\ statistic\ that\ is\ not\ currently\ displayed\ and\ comes\ before\ the\ current\ stat.\r\n\ @param\ actionEvent\r\n
+comment2.params=actionEvent
+comment2.target=void\ nextStat(javafx.event.ActionEvent)
+comment2.text=\r\n\ Searches\ for\ the\ nearest\ available\ statistic\ that\ is\ not\ currently\ displayed\ and\ comes\ after\ the\ current\ stat.\r\n\ @param\ actionEvent\r\n
+comment3.params=
+comment3.target=void\ refreshStat()
+comment3.text=\r\n\ Refreshes\ the\ displayed\ information.\ This\ method\ must\ be\ called\ whenever\ the\ statistics\ have\ been\ updated\ because\ of\ a\ change\ (\ in\ the\ user's\ price\ range\ or\ favorite\ property\ list\ )\r\n
+comment4.params=startingIndex\ statLogicHelper
+comment4.target=StatViewer(int,\ StatLogicHelper)
+comment4.text=\r\n\ Creates\ a\ statistic\ viewer.\r\n\ @param\ startingIndex\ A\ number\ that\ represents\ which\ of\ the\ 8\ statistics\ this\ statistic\ viewer\ should\ start\ at.\ The\ statistics\ are\ numbered\ 0\ through\ 7.\r\n\ @param\ statLogicHelper\ The\ StatLogicHelper\ type\ object\ that\ this\ class\ needs\ to\ source\ the\ information\ to\ be\ displayed.\r\n
+comment5.params=
+comment5.target=javafx.scene.layout.BorderPane\ getStatViewer()
+comment5.text=\r\n\ Returns\ the\ javafx\ container\ of\ the\ statistic\ viewer.\r\n\ @return\ The\ container\ of\ all\ of\ the\ statistic\ viewer's\ components.\r\n
+numComments=6

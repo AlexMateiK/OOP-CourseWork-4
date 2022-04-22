@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PTALValueContainer
+comment0.text=\r\n\ Container\ class\ for\ holding\ a\ datapoint\ on\ connectivity.\r\n\ It\ associates\ a\ pair\ of\ BNG\ (British\ National\ Grid)\ coordinates\ with\ a\ connectivity\ rating\ (\ PTAL\ \=\ Public\ Transport\ Accesibility\ Level\ ).\r\n
+comment1.params=easting\ northing\ PTAL
+comment1.target=PTALValueContainer(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Creates\ a\ container\ for\ a\ datapoint\ on\ connectivity\r\n\ @param\ easting\ Easting\ BNG\ Coordinate\r\n\ @param\ northing\ Northing\ BNG\ Coordinate\r\n\ @param\ PTAL\ PTAL\ Value\ for\ the\ given\ coordinates\ (PTAL\ \=\ connectivity\ rating)\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNorthing()
+comment2.text=\r\n\ Northing\ BNG\ coordinate\ for\ this\ datapoint.\r\n\ @return\ Northing\ BNG\ coordinate\r\n
+comment3.params=
+comment3.target=java.lang.String\ getEasting()
+comment3.text=\r\n\ Easting\ BNG\ coordinate\ for\ this\ datapoint\r\n\ @return\ Easting\ BNG\ Coordinate\r\n
+comment4.params=
+comment4.target=java.lang.String\ getPTAL()
+comment4.text=\r\n\ PTAL\ Value\ for\ this\ datapoint\r\n\ @return\ Connectivity\ rating\r\n
+numComments=5

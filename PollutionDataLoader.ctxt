@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PollutionDataLoader
+comment0.text=\r\n\ Helper\ class\ used\ to\ load\ information\ on\ pollutant\ emissions\ in\ 2016.\r\n\r\n\ Data\ contained\ in\ EmissionsByGridExactCut2016FromLAEI2016EmissionsSummaryStaticValues.csv\r\n\ and\ EmissionsByGridExactCut2016FromLAEI2016EmissionsSummary\r\n\ extracted\ from\ The\ Greater\ London\ Authority's\ London\ DataStore\r\n\ in\ accordance\ with\ UK\ Open\ Government\ Licence\ V2\ (http\://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/)\r\n\ NOTICE\:\ The\ Greater\ London\ Authority\ cannot\ warrant\ the\ quality\ or\ the\ accuaracy\ of\ the\ extracted\ data.\r\n\r\n\ @author\ Alexandru\ Matei,\ K20054925\r\n\ @version\ 7/04/2021\r\n
+comment1.params=
+comment1.target=PollutionDataLoader()
+comment1.text=\r\n\ Creates\ a\ PollutionDataLoader\ type\ object\ which\ may\ then\ be\ used\ to\ load\ and\ then\ process\ pollution-related\ data.\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ loadPollutionData()
+comment2.text=\r\n\ Load\ the\ pollution\ information.\r\n\ @return\ ArrayList\ containing\ pollution\ data\ points\r\n
+comment3.params=pollutionList
+comment3.target=void\ computeGeometricMeans(java.util.ArrayList)
+comment3.text=\r\n\ Goes\ through\ all\ of\ the\ data\ points\ and\ makes\ them\ compute\ the\ geometric\ mean\ of\ their\ pollutant\ quantities.\r\n\ @param\ pollutionList\ the\ ArrayList\ containing\ all\ of\ the\ pollution\ datapoints\r\n
+numComments=4
