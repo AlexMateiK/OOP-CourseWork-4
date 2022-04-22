@@ -1,4 +1,6 @@
-PROJECT TITLE: AirBnB London Data Set Loader
-PURPOSE OF PROJECT: To load the AirBnB London data set from the provided csv file into a Java data structure
-HOW TO START THIS PROJECT: Use the method 'load' in the the class 'AirbnbDataLoader'
-AUTHORS: KCL Informatics, PPA
+This project was done as part of the Programming Practice and Applications 
+course at King's College London, by a team of four: Ejaz Karim, Godfrey Gomes,
+Mateusz Adamski and Alexandru Matei. Some of the code was written by the creators
+of the assignment, as a starting point for our work.
+
+Alexandru Matei predominantly worked on the statistics panel.
